@@ -8,7 +8,7 @@
 		"creator",
 		"MySQL"
 	],
-	"homepage" : "https://github.com/greenlion/PHP-SQL-Parser",
+	"homepage" : "https://github.com/tsukasa/PHP-SQL-Parser",
 	"license" : "BSD-3-Clause",
 	"authors" : [{
 			"name" : "Justin Swanhart",

@@ -253,7 +253,6 @@ class SQLProcessor extends SQLChunkProcessor {
             case 'INSTALL':
             case 'UNINSTALL':
             case 'ANALZYE':
-            case 'BACKUP':
             case 'CHECKSUM':
             case 'REPAIR':
             case 'RESTORE':
@@ -274,6 +273,7 @@ class SQLProcessor extends SQLChunkProcessor {
                 $out[$prev_category][] = $trim;
                 continue 2;
 
+            case 'BACKUP':
             case 'REPLACE':
             	if ($prev_category === '') {
             		// set the category in case these get subclauses in a future version of MySQL
